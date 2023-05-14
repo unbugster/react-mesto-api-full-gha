@@ -1,0 +1,10 @@
+.header__info {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}

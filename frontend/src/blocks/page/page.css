@@ -1,0 +1,29 @@
+.page {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter", "Arial", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  color: #000000;
+  background-color: #000000;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(max-content, 880px);
+  grid-template-rows: min-content auto min-content;
+  justify-content: center;
+}
+
+@media screen and (min-width:1216px) {
+  .page {
+    padding: 0 150px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .page {
+    padding: 0 200px;
+  }
+}

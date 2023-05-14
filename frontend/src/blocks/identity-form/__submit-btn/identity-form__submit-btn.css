@@ -1,0 +1,38 @@
+.identity-form__submit-btn {
+  all: unset;
+  box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 14px 10px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+  color: #000;
+  transition: opacity 0.2s linear;
+  margin-top: 175px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width:1280px) {
+  .identity-form__submit-btn {
+    margin-top: 215px;
+    margin-bottom: 15px;
+  }
+}
+
+.identity-form__submit-btn:hover {
+  opacity: 0.9;
+}
+
+.identity-form__submit-btn:disabled {
+  color: #000;
+  background-color: #f7f7f7;
+  border: 1px solid #000;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.6;
+}

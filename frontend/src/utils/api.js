@@ -97,6 +97,6 @@ export const api = new Api({
   baseUrl: "https://api.mesto.unbugster.nomoredomains.monster",
   headers: {
     "Content-Type": "application/json",
-    authorization: "7beae6a7-0472-4ae1-a19c-58afe208b60c"
+    'Authorization': `Bearer ${localStorage.getItem('jwt')}`
   }
 });
